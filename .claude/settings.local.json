@@ -9,6 +9,6 @@
     "ANTHROPIC_DEFAULT_FABLE_MODEL": "qwen/qwen3.8-max:free",
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax/minimax-m2.7:free",
     "CLAUDE_CODE_SUBAGENT_MODEL": "minimax/minimax-m2.7-highspeed:free",
-    "CLAUDE_CODE_MAX_CONTEXT_TOKENS": "500000"
+    "CLAUDE_CODE_MAX_CONTEXT_TOKENS": "1000000"
   }
 }

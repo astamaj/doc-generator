@@ -13,7 +13,7 @@ Planning decisions recorded 2026-09-20: full five document type MVP; solo build 
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| 1 | Stack & architecture | Foundation | planned |
+| 1 | Stack & architecture | Foundation | in-progress |
 | 2 | Coding standards & tooling | Foundation | planned |
 | 3 | Data model | Foundation | planned |
 | 4 | Design system & UI foundation | Foundation | planned |
@@ -39,11 +39,13 @@ Planning decisions recorded 2026-09-20: full five document type MVP; solo build 
 
 ## Foundations
 
-### 1. Stack & architecture · needs a decision
+### 1. Stack & architecture
 Decide the stack once and scaffold a runnable project so every later slice builds on real structure. PRODUCT_SPEC.md recommends a stack; `/architect` confirms or revises that call and records it as the one place tools and frameworks are chosen.
 **Done when:** the stack is recorded in a spec and the empty scaffold boots locally and passes build.
-- [ ] Decide the stack (spec): `/architect stack & architecture`
+- [x] Decide the stack (spec): `/architect stack & architecture`
 - [ ] Scaffold from the decision: `/develop stack & architecture`
+
+spec [0001](../specs/0001-stack-architecture.md)
 
 ### 2. Coding standards & tooling
 Capture conventions and install lint, format, strict types, pre-commit checks, and CI from the real scaffolded project, not guesses.

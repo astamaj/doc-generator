@@ -1,0 +1,24 @@
+Set up this Neon project in the current working directory.
+
+1. `npm i -g neon@latest && neon login`
+2. `neon skills -y`
+3. `neon mcp -y`
+4. `neon link --project-id purple-mouse-98994066 --branch production -y`
+5. `neon config init`
+6. Update `neon.ts`:
+
+```ts
+import { defineConfig } from "@neon/config/v1";
+
+export default defineConfig({});
+```
+
+7. `neon deploy`
+
+# Postgres — your database connection
+DATABASE_URL="postgresql://neondb_owner:npg_HPTUkn2XW3ol@ep-purple-lake-b3l12k42.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+DATABASE_URL_POOLED="postgresql://neondb_owner:npg_HPTUkn2XW3ol@ep-purple-lake-b3l12k42-pooler.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+
+# Postgres — your database connection
+DATABASE_URL="postgresql://neondb_owner:npg_HPTUkn2XW3ol@ep-purple-lake-b3l12k42.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+DATABASE_URL_POOLED="postgresql://neondb_owner:npg_HPTUkn2XW3ol@ep-purple-lake-b3l12k42-pooler.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"

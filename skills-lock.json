@@ -13,11 +13,23 @@
       "skillPath": "skills/audit/SKILL.md",
       "computedHash": "f388e74b95dcfea40615dcce28223b9166e9213867ac35e9971b549b7cda1eae"
     },
+    "better-auth-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "skillPath": "better-auth/best-practices/SKILL.md",
+      "computedHash": "f35281e7a0c07b3fd3c4e96c7833dafb294a3a8662cb68a8544f4225008d6568"
+    },
     "check": {
       "source": "jsmastery-pro/skills",
       "sourceType": "github",
       "skillPath": "skills/check/SKILL.md",
       "computedHash": "59055fb74dd47dc1443cbdf970152d614e81372dd51aa636159eb3246a627dd8"
+    },
+    "cloudflare-r2": {
+      "source": "secondsky/claude-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/cloudflare-r2/skills/cloudflare-r2/SKILL.md",
+      "computedHash": "bd2a0e6b9c505b3d22fc881c958c8aa6500660104cabb08fe44dc0df3c7caba5"
     },
     "debug": {
       "source": "jsmastery-pro/skills",
@@ -37,11 +49,29 @@
       "skillPath": "skills/document/SKILL.md",
       "computedHash": "a47c5d29a1263d987c2fa05dbc993a5276aaf6c4ddc54fbd329463a5f3a1aa77"
     },
+    "drizzle": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "skillPath": "toolchains/typescript/data/drizzle/SKILL.md",
+      "computedHash": "daefe2ce00404d56ac89ff312abc57457d3779ff5f8a38a1c6b4867c67a86ea4"
+    },
+    "neon-postgres": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/neon-postgres/SKILL.md",
+      "computedHash": "ac5522830f97d16b0645da7a79d4b21d75e4ac7edfbfa32f7d051ad1dcbc60b9"
+    },
     "scope": {
       "source": "jsmastery-pro/skills",
       "sourceType": "github",
       "skillPath": "skills/scope/SKILL.md",
       "computedHash": "737c19451b3d0e08edf9560b195a864d1a4006e4f70760339ddc3b2d9b6b6447"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "d04e43ec01e921558b93bb8046c14a42a22556689a2827243df900825a4e1604"
     },
     "sync": {
       "source": "jsmastery-pro/skills",
@@ -49,11 +79,23 @@
       "skillPath": "skills/sync/SKILL.md",
       "computedHash": "5986c38a23bbb14f82c018862ff0a601f3f20b4a8a1f429e9731b4da6742a765"
     },
+    "tanstack-query": {
+      "source": "tanstack-skills/tanstack-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/tanstack-query/skills/tanstack-query/SKILL.md",
+      "computedHash": "bfe2977e92667b84efeb4b12e5c3010807934aab2f7ac2b059241cd3da2a3e6e"
+    },
     "test": {
       "source": "jsmastery-pro/skills",
       "sourceType": "github",
       "skillPath": "skills/test/SKILL.md",
       "computedHash": "6b742c465b3e9cec898bf3621ec555faefb41fdcc0cbbf43ec0a6041fbdcb6be"
+    },
+    "wrangler": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "skillPath": "skills/wrangler/SKILL.md",
+      "computedHash": "d6772400129d81396d655e1b5ab90067994a6a2033c62d96c911c12963eac0e5"
     }
   }
 }
