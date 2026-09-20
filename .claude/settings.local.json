@@ -1,0 +1,14 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.xkiro.com/",
+    "ANTHROPIC_AUTH_TOKEN": "sk-xt-14f710f21940e10e03b19834423fb8c4767b27f2a096bbea",
+    "ANTHROPIC_API_KEY": "",
+    "ANTHROPIC_MODEL": "qwen/qwen3.8-max:free",
+    "ANTHOROPIC_DEFAULT_OPUS_MODEL": "minimax/minimax-m3:free",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "qwen/qwen3.7-max:free",
+    "ANTHROPIC_DEFAULT_FABLE_MODEL": "qwen/qwen3.8-max:free",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax/minimax-m2.7:free",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "minimax/minimax-m2.7-highspeed:free",
+    "CLAUDE_CODE_MAX_CONTEXT_TOKENS": "500000"
+  }
+}
